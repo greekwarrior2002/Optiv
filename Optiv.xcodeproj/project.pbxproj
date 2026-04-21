@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0000000000000000000200 /* OptivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000110 /* OptivApp.swift */; };
+		9A0000000000000000000201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000111 /* ContentView.swift */; };
+		9A0000000000000000000202 /* WorkoutModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000112 /* WorkoutModels.swift */; };
+		9A0000000000000000000203 /* PerformanceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000113 /* PerformanceModels.swift */; };
+		9A0000000000000000000204 /* WorkoutRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000114 /* WorkoutRepositories.swift */; };
+		9A0000000000000000000205 /* ReadinessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000115 /* ReadinessService.swift */; };
+		9A0000000000000000000206 /* PerformanceCorrelationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000116 /* PerformanceCorrelationEngine.swift */; };
+		9A0000000000000000000207 /* HealthKitPerformanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000117 /* HealthKitPerformanceService.swift */; };
+		9A0000000000000000000208 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000118 /* SampleData.swift */; };
+		9A0000000000000000000209 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000119 /* TodayView.swift */; };
+		9A000000000000000000020A /* WorkoutsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011A /* WorkoutsTabView.swift */; };
+		9A000000000000000000020B /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011B /* WorkoutSessionView.swift */; };
+		9A000000000000000000020C /* ProgressTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011C /* ProgressTabView.swift */; };
+		9A000000000000000000020D /* InsightsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011D /* InsightsTabView.swift */; };
+		9A000000000000000000020E /* QuickPerformanceQuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011E /* QuickPerformanceQuestionnaireView.swift */; };
+		9A000000000000000000020F /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A000000000000000000011F /* SettingsTabView.swift */; };
+		9A0000000000000000000210 /* OptivTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000120 /* OptivTheme.swift */; };
+		9A0000000000000000000211 /* BubbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000121 /* BubbleButton.swift */; };
+		9A0000000000000000000212 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000122 /* FlowLayout.swift */; };
+		9A0000000000000000000213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0000000000000000000123 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A0000000000000000000005 /* Optiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0000000000000000000110 /* OptivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptivApp.swift; sourceTree = "<group>"; };
+		9A0000000000000000000111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A0000000000000000000112 /* WorkoutModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModels.swift; sourceTree = "<group>"; };
+		9A0000000000000000000113 /* PerformanceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceModels.swift; sourceTree = "<group>"; };
+		9A0000000000000000000114 /* WorkoutRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepositories.swift; sourceTree = "<group>"; };
+		9A0000000000000000000115 /* ReadinessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinessService.swift; sourceTree = "<group>"; };
+		9A0000000000000000000116 /* PerformanceCorrelationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCorrelationEngine.swift; sourceTree = "<group>"; };
+		9A0000000000000000000117 /* HealthKitPerformanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPerformanceService.swift; sourceTree = "<group>"; };
+		9A0000000000000000000118 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		9A0000000000000000000119 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011A /* WorkoutsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsTabView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011B /* WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011C /* ProgressTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTabView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011D /* InsightsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsTabView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011E /* QuickPerformanceQuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPerformanceQuestionnaireView.swift; sourceTree = "<group>"; };
+		9A000000000000000000011F /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		9A0000000000000000000120 /* OptivTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptivTheme.swift; sourceTree = "<group>"; };
+		9A0000000000000000000121 /* BubbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleButton.swift; sourceTree = "<group>"; };
+		9A0000000000000000000122 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		9A0000000000000000000123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0000000000000000000124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000140 /* Optiv */,
+				9A0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000005 /* Optiv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000130 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000131 /* Models */,
+				9A0000000000000000000132 /* Repositories */,
+				9A0000000000000000000133 /* Services */,
+				9A0000000000000000000134 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000131 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000112 /* WorkoutModels.swift */,
+				9A0000000000000000000113 /* PerformanceModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000132 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000114 /* WorkoutRepositories.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000133 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000115 /* ReadinessService.swift */,
+				9A0000000000000000000116 /* PerformanceCorrelationEngine.swift */,
+				9A0000000000000000000117 /* HealthKitPerformanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000134 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000118 /* SampleData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000135 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000136 /* Today */,
+				9A0000000000000000000137 /* Workouts */,
+				9A0000000000000000000138 /* Progress */,
+				9A0000000000000000000139 /* Insights */,
+				9A000000000000000000013A /* Questionnaire */,
+				9A000000000000000000013B /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000136 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000119 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000137 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000011A /* WorkoutsTabView.swift */,
+				9A000000000000000000011B /* WorkoutSessionView.swift */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000138 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000011C /* ProgressTabView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000139 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000011D /* InsightsTabView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013A /* Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000011E /* QuickPerformanceQuestionnaireView.swift */,
+			);
+			path = Questionnaire;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000011F /* SettingsTabView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A000000000000000000013D /* Theme */,
+				9A000000000000000000013E /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000120 /* OptivTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000121 /* BubbleButton.swift */,
+				9A0000000000000000000122 /* FlowLayout.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A000000000000000000013F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000123 /* Assets.xcassets */,
+				9A0000000000000000000124 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A0000000000000000000140 /* Optiv */ = {
+			isa = PBXGroup;
+			children = (
+				9A0000000000000000000110 /* OptivApp.swift */,
+				9A0000000000000000000111 /* ContentView.swift */,
+				9A0000000000000000000130 /* Core */,
+				9A0000000000000000000135 /* Features */,
+				9A000000000000000000013C /* UI */,
+				9A000000000000000000013F /* Resources */,
+			);
+			path = Optiv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0000000000000000000004 /* Optiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0000000000000000000009 /* Build configuration list for PBXNativeTarget "Optiv" */;
+			buildPhases = (
+				9A0000000000000000000006 /* Sources */,
+				9A0000000000000000000007 /* Frameworks */,
+				9A0000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Optiv;
+			productName = Optiv;
+			productReference = 9A0000000000000000000005 /* Optiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9A0000000000000000000004 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A000000000000000000000A /* Build configuration list for PBXProject "Optiv" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0000000000000000000002;
+			productRefGroup = 9A0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0000000000000000000004 /* Optiv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0000000000000000000213 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0000000000000000000200 /* OptivApp.swift in Sources */,
+				9A0000000000000000000201 /* ContentView.swift in Sources */,
+				9A0000000000000000000202 /* WorkoutModels.swift in Sources */,
+				9A0000000000000000000203 /* PerformanceModels.swift in Sources */,
+				9A0000000000000000000204 /* WorkoutRepositories.swift in Sources */,
+				9A0000000000000000000205 /* ReadinessService.swift in Sources */,
+				9A0000000000000000000206 /* PerformanceCorrelationEngine.swift in Sources */,
+				9A0000000000000000000207 /* HealthKitPerformanceService.swift in Sources */,
+				9A0000000000000000000208 /* SampleData.swift in Sources */,
+				9A0000000000000000000209 /* TodayView.swift in Sources */,
+				9A000000000000000000020A /* WorkoutsTabView.swift in Sources */,
+				9A000000000000000000020B /* WorkoutSessionView.swift in Sources */,
+				9A000000000000000000020C /* ProgressTabView.swift in Sources */,
+				9A000000000000000000020D /* InsightsTabView.swift in Sources */,
+				9A000000000000000000020E /* QuickPerformanceQuestionnaireView.swift in Sources */,
+				9A000000000000000000020F /* SettingsTabView.swift in Sources */,
+				9A0000000000000000000210 /* OptivTheme.swift in Sources */,
+				9A0000000000000000000211 /* BubbleButton.swift in Sources */,
+				9A0000000000000000000212 /* FlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Optiv/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.optivapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Optiv/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.optivapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9A000000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		9A000000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0000000000000000000009 /* Build configuration list for PBXNativeTarget "Optiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A000000000000000000000B /* Debug */,
+				9A000000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A000000000000000000000A /* Build configuration list for PBXProject "Optiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A000000000000000000000D /* Debug */,
+				9A000000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0000000000000000000001 /* Project object */;
+}
